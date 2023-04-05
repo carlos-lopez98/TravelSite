@@ -48,7 +48,8 @@ button {
   font-family: 'Poppings', sans-serif;
 }
 
-@media and (max-width: 940px) {
+@media screen and (max-width: 940px) {
+
   h1 {
     font-size: 2.5rem;
   }
