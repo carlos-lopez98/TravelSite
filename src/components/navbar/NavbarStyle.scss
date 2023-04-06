@@ -8,9 +8,20 @@
     z-index: 2;
 }
 
-.nav-menu {}
+.nav-menu {
+    display: flex;
+}
+
+/* This targets all Li elements in the navbar component */
+li {
+    padding: 0 1rem;
+}
 
 .hamburger {
     display: none;
     padding: 1rem;
 }
+
+
+/* Media Queries for devices with a max-width of 940px, anything under 940px will have these styles applied to the elements*/
+@media screen and (max-width: 940px) {}
