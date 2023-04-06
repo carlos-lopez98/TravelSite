@@ -39,6 +39,25 @@ function navbar() {
                 <HiOutlineMenuAlt4 className='icon' />
             </div>
 
+            {/* This will be the menu for our smaller screens */}
+            <div className="mobile-menu">
+                <ul className="mobile-nav">
+                    <li>Home</li>
+                    <li>Destinations</li>
+                    <li>Travel</li>
+                    <li>Book</li>
+                    <li>Views</li>
+                </ul>
+
+                <div className="mobile-menu-bottom">
+                    <div className="menu-icons">
+
+                    </div>
+                    <div className="social-icons">
+
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
