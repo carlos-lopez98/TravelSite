@@ -3,6 +3,8 @@ import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 
+//Stylesheet
+import './Navbar.scss'
 
 /* 
 *    Navbar component -- contains website navigation features
