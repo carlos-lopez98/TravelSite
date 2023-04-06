@@ -3,9 +3,19 @@ import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 
+
+/* 
+*    Navbar component -- contains website navigation features
+*    Includes -- Home Destinations Travel Book and Views   
+*    Icons -- Hamburger Search Bio
+*/
 function navbar() {
+
+
     return (
+
         <div className="navbar">
+
             <div className="logo">
                 <h2>Beaches</h2>
             </div>
@@ -21,13 +31,12 @@ function navbar() {
             <div className="nav-icons">
                 <BiSearch className='icon' />
                 <BsPerson className='icon' />
-
-
             </div>
 
             <div className="hamburger">
                 <HiOutlineMenuAlt4 className='icon' />
             </div>
+
         </div>
     )
 }
