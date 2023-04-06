@@ -26,10 +26,12 @@ li {
 /* Media Queries for devices with a max-width of 940px, anything under 940px will have these styles applied to the elements*/
 @media screen and (max-width: 940px) {
 
+    //This attribute removes the nav-menu from the html and it won't take up space
     .nav-menu {
         display: none;
     }
 
+    //This attribute turns the hamburger icon into a block element 
     .hamburger {
         display: block;
     }
