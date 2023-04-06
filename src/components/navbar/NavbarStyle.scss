@@ -24,4 +24,14 @@ li {
 
 
 /* Media Queries for devices with a max-width of 940px, anything under 940px will have these styles applied to the elements*/
-@media screen and (max-width: 940px) {}
+@media screen and (max-width: 940px) {
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+}
