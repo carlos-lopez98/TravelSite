@@ -26,7 +26,7 @@ function Navbar() {
 
     return (
 
-        <div className='nav-menu'>
+        <div className='navbar'>
 
             <div className="logo">
                 <h2>Beaches</h2>
@@ -41,7 +41,7 @@ function Navbar() {
             </ul>
 
             <div className="nav-icons">
-                <BiSearch className='icon' />
+                <BiSearch className='icon' style={{ marginRight: '1rem' }} />
                 <BsPerson className='icon' />
             </div>
 
@@ -51,7 +51,7 @@ function Navbar() {
 
             {/* This will be the menu for our smaller screens */}
             {/* If Nav is true, set name to nav-menu active else just nav-menu */}
-            <div className={nav ? 'mobile-nav active' : 'mobile-nav'}>
+            <div className={nav ? 'mobile-menu active' : 'mobile-menu'}>
                 <ul className="mobile-nav">
                     <li>Home</li>
                     <li>Destinations</li>
