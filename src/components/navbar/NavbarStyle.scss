@@ -22,6 +22,9 @@ li {
     padding: 1rem;
 }
 
+.mobile-menu {
+    display: none;
+}
 
 /* Media Queries for devices with a max-width of 940px, anything under 940px will have these styles applied to the elements*/
 @media screen and (max-width: 940px) {
