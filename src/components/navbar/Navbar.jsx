@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
 import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
+
+
 
 //Stylesheet
 import './NavbarStyle.scss'
@@ -12,8 +14,15 @@ import './NavbarStyle.scss'
 *    Includes -- Home Destinations Travel Book and Views   
 *    Icons -- Hamburger Search Bio
 */
-function navbar() {
 
+//**Remember Function Components must start with capital letter */
+function Navbar() {
+
+    //Manages state
+    const [nav, setNav] = useState(false)
+
+    //Sets stage to off/on
+    const handleNav = () => setNav(!nav)
 
     return (
 
@@ -68,4 +77,4 @@ function navbar() {
     )
 }
 
-export default navbar
+export default Navbar
