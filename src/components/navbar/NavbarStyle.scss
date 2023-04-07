@@ -45,6 +45,12 @@ li {
         transition: 0.3s;
     }
 
+    .mobile-menu li {
+        padding: 1.2rem 1rem;
+        margin: 0 1rem;
+        border-bottom: 1px solid #ccc;
+    }
+
     .mobile-nav {
         margin: 1rem 0;
     }
@@ -65,6 +71,11 @@ li {
     .social-icons .icon:hover {
         transform: scale(1.5);
         transition: 0.3s;
+    }
+
+    .mobile-menu button {
+        margin: 1rem;
+        width: 90%;
     }
 
     //This attribute removes the nav-menu from the html and it won't take up space
