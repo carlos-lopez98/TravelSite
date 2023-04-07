@@ -51,7 +51,8 @@ function navbar() {
 
                 <div className="mobile-menu-bottom">
                     <div className="menu-icons">
-
+                        <button>Search</button>
+                        <button>Account</button>
                     </div>
                     <div className="social-icons">
 
