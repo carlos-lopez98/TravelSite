@@ -2,6 +2,7 @@ import React from 'react'
 import { BiSearch } from 'react-icons/bi'
 import { BsPerson } from 'react-icons/bs'
 import { HiOutlineMenuAlt4 } from 'react-icons/hi'
+import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 //Stylesheet
 import './NavbarStyle.scss'
@@ -55,7 +56,11 @@ function navbar() {
                         <button>Account</button>
                     </div>
                     <div className="social-icons">
-
+                        <FaFacebook className='icon' />
+                        <FaInstagram className='icon' />
+                        <FaTwitter className='icon' />
+                        <FaPinterest className='icon' />
+                        <FaYoutube className='icon' />
                     </div>
                 </div>
             </div>
