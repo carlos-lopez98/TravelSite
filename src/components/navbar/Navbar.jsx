@@ -26,7 +26,7 @@ function Navbar() {
 
     return (
 
-        <div className="navbar">
+        <div className='nav-menu'>
 
             <div className="logo">
                 <h2>Beaches</h2>
@@ -45,12 +45,13 @@ function Navbar() {
                 <BsPerson className='icon' />
             </div>
 
-            <div className="hamburger">
+            <div className="hamburger" onClick={handleNav}>
                 <HiOutlineMenuAlt4 className='icon' />
             </div>
 
             {/* This will be the menu for our smaller screens */}
-            <div className="mobile-menu">
+            {/* If Nav is true, set name to nav-menu active else just nav-menu */}
+            <div className={nav ? 'mobile-nav active' : 'mobile-nav'}>
                 <ul className="mobile-nav">
                     <li>Home</li>
                     <li>Destinations</li>
