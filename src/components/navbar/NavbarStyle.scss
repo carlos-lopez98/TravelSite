@@ -29,6 +29,20 @@ li {
 /* Media Queries for devices with a max-width of 940px, anything under 940px will have these styles applied to the elements*/
 @media screen and (max-width: 940px) {
 
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        width: 109%;
+        /*         color: rgba(255, 255, 255, .95);
+ */
+        top: 0;
+        left: 0;
+        align-items: center;
+        position: absolute;
+        justify-content: space-between;
+        background-color: #f5f5f5;
+    }
+
     //This attribute removes the nav-menu from the html and it won't take up space
     .nav-menu {
         display: none;
