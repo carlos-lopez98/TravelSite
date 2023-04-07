@@ -47,7 +47,6 @@ li {
 
     .mobile-nav {
         margin: 1rem 0;
-
     }
 
     .mobile-menu-bottom {
@@ -60,6 +59,12 @@ li {
         display: flex;
         justify-content: space-around;
         margin: 2rem 0;
+    }
+
+
+    .social-icons .icon:hover {
+        transform: scale(1.5);
+        transition: 0.3s;
     }
 
     //This attribute removes the nav-menu from the html and it won't take up space
